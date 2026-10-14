@@ -17,7 +17,7 @@ int main() {
   cout << "Enter the DC value: ";                                             cin >> E;
   cout << "Enter the time value: ";                                           cin >> t;
   
-  for (int capacityIndex = 1; capacityIndex <= 4; ++capacityIndex) {
+  for (int capacityIndex = 0; capacityIndex < capacityCount; ++capacityIndex) {
     double C, L, R, alpha, beta, gamma, i;
 
     cout << "Enter several values" << endl;
