@@ -29,7 +29,7 @@ int main() {
     beta = (pow(10.0, 6.0) / (L * C)) - pow(gamma, 2.0);
     alpha = (pow(10.0, 3.0) * E * exp(gamma * t * (-1.0))) / L;
 
-    if (beta > 0) {
+    if (beta > 0.0) {
       i = (alpha * sin(sqrt(beta) * t)) / sqrt(beta);
     } else {
       i = (alpha * sinh(sqrt(beta * (-1.0)) * t)) / sqrt(beta * (-1.0));
