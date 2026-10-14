@@ -30,9 +30,9 @@ int main() {
     alpha = (pow(10.0, 3.0) * E * exp(gamma * t * (-1.0))) / L;
 
     if (beta > 0) {
-        i = (alpha * sin(sqrt(beta) * t)) / sqrt(beta);
+      i = (alpha * sin(sqrt(beta) * t)) / sqrt(beta);
     } else {
-        i = (alpha * sinh(sqrt(beta * (-1.0)) * t)) / sqrt(beta * (-1.0));
+      i = (alpha * sinh(sqrt(beta * (-1.0)) * t)) / sqrt(beta * (-1.0));
     }
     
     cout << "Beta = " << beta << " i = " << i << endl;
